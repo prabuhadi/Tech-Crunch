@@ -177,6 +177,7 @@ body {
   align-items: center;
   display: flex;
   gap: 16px;
+  margin-bottom: 48px;
 }
 
 .delivered-imgs {
@@ -203,4 +204,39 @@ body {
 .delivered-text span {
   color: rgba(10, 150, 0, 255);
   font-weight: 700;
+}
+
+/*********************/
+/* Footer Section */
+/*********************/
+
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  /* box-shadow: 0 -3px 3px 5px rgba(0, 0, 0, 0.05); */
+  align-items: center;
+}
+
+.footer--link {
+  background-color: rgba(10, 150, 0, 255);
+  padding: 30px 150px;
+}
+
+.footer--links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  color: #000;
+}
+
+.footer--copyright {
+  display: flex;
+  gap: 40px;
 }
