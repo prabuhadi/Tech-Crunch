@@ -127,6 +127,10 @@ body {
 }
 
 /*********************/
+/* Banner Section */
+/*********************/
+
+/*********************/
 /* Hero Section */
 /*********************/
 
@@ -141,7 +145,7 @@ body {
   padding: 0 32px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: top;
+  align-items: center;
   gap: 96px;
 }
 
@@ -211,12 +215,13 @@ body {
 /*********************/
 
 .footer {
-  background-color: #fff;
+  background-color: #e7eee6;
   display: flex;
   justify-content: space-between;
   padding: 0 60px;
   /* box-shadow: 0 -3px 3px 5px rgba(0, 0, 0, 0.05); */
   align-items: center;
+  border-top: 1px solid #000;
 }
 
 .footer--link {
