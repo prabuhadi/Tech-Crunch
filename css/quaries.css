@@ -9,8 +9,46 @@
   .logo {
     max-width: 140px;
   }
-  nav ul li {
+  .main-nav-list li {
     display: none;
+  }
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(/img/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 11;
+  }
+  .toggle.active {
+    background: url(/img/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-nav-list.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    z-index: 10;
+  }
+  .main-nav-list.active li {
+    display: flex;
+  }
+  .main-nav-list li a {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 5px 0;
   }
   .content {
     flex-direction: column;

@@ -15,3 +15,10 @@ setInterval(function () {
     counter = 1;
   }
 }, 5000);
+
+function toggleMenu() {
+  var menuToggle = document.querySelector(".toggle");
+  var navigation = document.querySelector(".main-nav-list");
+  menuToggle.classList.toggle("active");
+  navigation.classList.toggle("active");
+}
