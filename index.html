@@ -92,13 +92,31 @@
           <a class="btn btn--outline" href="#">Learn more</a>
         </div>
         <div class="content-img">
-          <img src="/img/content/laptop.png" alt="Laptop" />
+          <img src="/img/content/laptop.png" class="mini" alt="Laptop" />
         </div>
       </div>
       <ul class="gadget">
-        <li><img src="/img/content/1.png" alt="Laptop" /></li>
-        <li><img src="/img/content/2.png" alt="PC" /></li>
-        <li><img src="/img/content/3.png" alt="Mobile" /></li>
+        <li>
+          <img
+            src="/img/content/1.png"
+            onclick="imgSlider('/img/content/laptop.png');changeCircleColor('#2b8a3e')"
+            alt="Laptop"
+          />
+        </li>
+        <li>
+          <img
+            src="/img/content/2.png"
+            onclick="imgSlider('/img/content/pc.png');changeCircleColor('#d9480f')"
+            alt="PC"
+          />
+        </li>
+        <li>
+          <img
+            src="/img/content/3.png"
+            onclick="imgSlider('/img/content/phone.png');changeCircleColor('#1864ab')"
+            alt="Mobile"
+          />
+        </li>
       </ul>
       <ul class="content--links">
         <li>
