@@ -175,7 +175,7 @@ body {
 }
 
 .manual-btn {
-  border: 2px solid #40d3dc;
+  border: 2px solid rgba(10, 150, 0, 255);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -187,7 +187,7 @@ body {
 }
 
 .manual-btn:hover {
-  background: #40d3dc;
+  background: #0f4d00;
 }
 
 #radio1:checked ~ .first {
@@ -206,7 +206,7 @@ body {
   margin-left: -60%;
 }
 
-/*css for automatic navigation*/
+/* FOR AUTOMATIC SLIDE */
 
 .navigation-auto {
   position: absolute;
@@ -217,7 +217,7 @@ body {
 }
 
 .navigation-auto div {
-  border: 2px solid #40d3dc;
+  border: 2px solid rgba(10, 150, 0, 255);
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
@@ -228,20 +228,21 @@ body {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: #40d3dc;
+  background: #0f4d00;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: #40d3dc;
+  background: #0f4d00;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: #40d3dc;
+  background: #0f4d00;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: #40d3dc;
+  background: #0f4d00;
 }
+
 /*********************/
 /* Hero Section */
 /*********************/
