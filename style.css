@@ -75,6 +75,31 @@ a:visited {
   margin-right: 16px;
 }
 
+.heading-primary {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 32px;
+}
+
+.heading-primary span {
+  color: rgba(10, 150, 0, 255);
+}
+
+.heading-secondary {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+  color: #333;
+  margin-bottom: 32px;
+}
+
+.heading-secondary span {
+  color: rgba(10, 150, 0, 255);
+}
+
 /*********************/
 /* Header */
 /*********************/
@@ -136,6 +161,55 @@ a:visited {
 .nav-icon {
   height: 12px;
   margin-left: 10px;
+}
+
+/*********************/
+/* Content Component */
+/*********************/
+
+.section-content {
+  padding: 100px;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7eee6;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-text {
+  position: relative;
+  max-width: 600px;
+}
+
+.content-text h1 {
+  color: #333;
+  font-size: 45px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+.content-text span {
+  color: rgba(10, 150, 0, 255);
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.content-text p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 24px 0 24px 0;
 }
 
 /*********************/
@@ -257,16 +331,6 @@ a:visited {
   background: #0f4d00;
 }
 
-/* .tes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.test {
-  width: 1400px;
-} */
-
 /*********************/
 /* Hero Section */
 /*********************/
@@ -291,19 +355,6 @@ a:visited {
   height: 90%;
   box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.09);
   /* box-shadow: 40px -16px 3px rgba(17, 85, 0, 0.8); */
-}
-
-.heading-primary {
-  font-size: 52px;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 32px;
-}
-
-.heading-primary span {
-  color: rgba(10, 150, 0, 255);
 }
 
 .hero-description {
@@ -360,18 +411,6 @@ a:visited {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 32px;
-}
-
-.heading-secondary {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 1;
-  color: #333;
-  margin-bottom: 32px;
-}
-
-.heading-secondary span {
-  color: rgba(10, 150, 0, 255);
 }
 
 .article-description {
