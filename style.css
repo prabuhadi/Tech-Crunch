@@ -238,6 +238,9 @@ a:visited {
   margin: 0 20px;
   cursor: pointer;
   transition: all 0.5s;
+  border: solid 1px #555;
+  padding: 20px;
+  border-radius: 50%;
 }
 
 .gadget li:hover {
@@ -245,7 +248,7 @@ a:visited {
 }
 
 .gadget li img {
-  max-width: 60px;
+  max-width: 30px;
 }
 
 .content--links {
