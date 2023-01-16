@@ -212,6 +212,18 @@ a:visited {
   margin: 24px 0 24px 0;
 }
 
+.content-img {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.content-img img {
+  max-width: 450px;
+}
+
 /*********************/
 /* Banner Section */
 /*********************/
