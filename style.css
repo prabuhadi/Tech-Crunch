@@ -13,6 +13,7 @@ tint: #e7eee6, #cfddcc, #a0bb99
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -409,6 +411,12 @@ a:visited {
   width: 32px;
   height: 32px;
   color: #000;
+  transition: all 0.5s;
+}
+
+.social-icon:hover,
+.social-icon:visited {
+  color: #e7eee6;
 }
 
 .footer--copyright {
